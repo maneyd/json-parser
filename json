@@ -1,0 +1,54 @@
+json = { value } 
+
+value =	object
+	array
+	number 
+	string
+	bool
+	null
+
+bool = "True"
+	"False"
+
+number = 0-9
+
+string = all characters
+
+------------------------------------------------------------------------------
+
+array = [ ] 
+	[ elements ]
+	
+elements = value
+	   value ,  elements
+	
+------------------------------------------------------------------------------
+
+object = { }
+	 { pairs } 
+
+pairs = pair 
+	pair , pairs
+
+pair =	"string" : value		
+
+-------------------------------------------------------------------------------
+
+string = "aabbcc"
+       = a*n,b*n,c*n
+
+if n >= 1
+string = " { A B C} "
+
+A = null 
+    'a' A 
+
+B = null
+    'b' B
+
+
+C = null
+    'c' C
+
+-------------------------------------------------------------------------------
+
